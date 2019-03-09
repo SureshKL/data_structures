@@ -1,7 +1,9 @@
 """
 Minimum distance between two occurrences of maximum
 
-You are given an array of n-elements with a basic condition that occurrence of greatest element is more than once. You have to find the minimum distance between maximums. (n>=2).
+You are given an array of n-elements with a basic condition that occurrence of
+greatest element is more than once. You have to find the minimum distance
+between maximums. (n>=2).
 
 Examples:
 
