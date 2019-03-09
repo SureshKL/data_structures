@@ -1,7 +1,9 @@
 """
 Find the minimum distance between two numbers
 
-Given an unsorted array arr[] and two numbers x and y, find the minimum distance between x and y in arr[]. The array might also contain duplicates. You may assume that both x and y are different and present in arr[].
+Given an unsorted array arr[] and two numbers x and y, find the minimum
+distance between x and y in arr[]. The array might also contain duplicates.
+You may assume that both x and y are different and present in arr[].
 
 Examples:
 Input: arr[] = {1, 2}, x = 1, y = 2
@@ -59,5 +61,5 @@ for test_case, inputs in test_cases.items():
 
     import timeit
 
-    t = timeit.Timer(stmt=st, globals=globals(), )
-    print(t.timeit())
+    t = timeit.Timer(stmt=st, globals=globals())
+    print(t.repeat(repeat=3))
