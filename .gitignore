@@ -3,3 +3,6 @@
 
 # Jet Brains project settings
 .idea/
+
+# Python virtual env
+env
