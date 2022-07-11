@@ -27,20 +27,14 @@ def decimal_to_binary(quot, rem):
     rem = num % 2
     return decimal_to_binary(quot)
 
-print(decimal_to_binary(10//2, 10 % 2))
-    
-    
-print(product(123)) # 1*2*3 = 5
-print(factorial(5)) # 5! = 120
-print(fibonacci(5)) # 0 1 1 2 3 5 = 5
-print(gcd(48, 18))  # gcd(48, 18) = 6
+def pow(base, exponent):
+    if exponent == 0:
+        return 1
+    return base * pow(base, exponent-1)
 
-"""
-Recursion
-
-Factorial n * n-1
-Fibonacci
-Product of numbers
-GCD of two numbers
-
-"""
+print(pow(2, 4))  # 2*2*2*2 = 16
+# print(product(123)) # 1*2*3 = 5
+# print(factorial(5)) # 5! = 120
+# print(fibonacci(5)) # 0 1 1 2 3 5 = 5
+# print(gcd(48, 18))  # gcd(48, 18) = 6
+# print(decimal_to_binary(10//2, 10 % 2))

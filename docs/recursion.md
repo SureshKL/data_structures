@@ -56,5 +56,14 @@ def decimal_to_binary(quot, rem):
 print(decimal_to_binary(10//2, 10 % 2))
 ```
 
+## Power of number
+```py linenums="1"
+def pow(base, exponent):
+    if exponent == 0:
+        return 1
+    return base * pow(base, exponent-1)
+
+print(pow(2, 4))  # 2*2*2*2 = 16
+```
  
 
